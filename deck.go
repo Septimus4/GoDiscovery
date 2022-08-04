@@ -31,7 +31,6 @@ func (d deck) print() {
 }
 
 func (d deck) deal(size int) (deck, deck) {
-
 	return d[:size], d[size:]
 }
 
